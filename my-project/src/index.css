@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* ================================
+   ISA-TECH CUSTOM COLOR SYSTEM
+   ================================ */
+@layer base {
+  :root {
+    /* Brand palette */
+    --color-primary: hsl(310, 83%, 53%);        /* Blue 600 */
+    --color-primary-dark: #1d4ed8;   /* Blue 700 */
+    --color-accent: #6366f1;         /* Indigo 500 */
+
+    /* Neutrals */
+    --color-bg: #ffffff;
+    --color-surface: #f9fafb;
+
+    /* Text */
+    --color-text: #111827;           /* Gray 900 */
+    --color-text-muted: #4b5563;     /* Gray 600 */
+
+    /* Status */
+    --color-success: #16a34a;        /* Green 600 */
+    --color-warning: #f59e0b;        /* Amber 500 */
+    --color-error: #dc2626;          /* Red 600 */
+  }
+
+  /* Optional: dark mode (toggle with class="dark" on <html>) */
+  .dark {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #f8fafc;
+    --color-text-muted: #94a3b8;
+    --color-primary: #3b82f6;
+    --color-primary-dark: #2563eb;
+    --color-accent: #818cf8;
+  }
+}
+
+/* ================================
+   Base styles (optional)
+   ================================ */
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: system-ui, sans-serif;
+  }
+}
+
+/* ================================
+   Utilities using custom colors
+   ================================ */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-primary-dark {
+    background-color: var(--color-primary-dark);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+}
+
