@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#96CEB4" />
+      <stop offset="100%" stop-color="#BBDAB0" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g4)" />
+  <path d="M 150 100 Q 130 150 140 220 L 260 240 Q 270 160 250 100 Z" fill="#D4EDDA" />
+  <path d="M 160 240 Q 140 280 145 340 L 155 340 Q 150 280 170 240 Z" fill="#E8F5E9" />
+  <path d="M 240 240 Q 260 280 255 340 L 245 340 Q 250 280 230 240 Z" fill="#E8F5E9" />
+  <ellipse cx="200" cy="110" rx="30" ry="25" fill="#C8E6C9" />
+  <text x="200" y="370" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">Leather Handbag</text>
+</svg>
