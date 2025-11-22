@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gs" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#86EFAC" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#gs)" opacity="0.15" />
+  <g transform="translate(100, 100)">
+    <!-- Leaf 1 -->
+    <path d="M -15 -15 Q -25 -25 -20 -40 Q -15 -30 -10 -20 Z" fill="#10B981" />
+    <!-- Leaf 2 -->
+    <path d="M 0 -25 Q -8 -35 0 -45 Q 8 -32 8 -20 Z" fill="#34D399" />
+    <!-- Leaf 3 -->
+    <path d="M 15 -15 Q 25 -25 30 -38 Q 20 -28 12 -18 Z" fill="#10B981" />
+    <!-- Branch -->
+    <path d="M -20 0 Q 0 5 20 0" fill="none" stroke="#059669" stroke-width="4" stroke-linecap="round" />
+    <!-- Small leaves on branch -->
+    <circle cx="-12" cy="8" r="5" fill="#34D399" />
+    <circle cx="0" cy="10" r="5" fill="#10B981" />
+    <circle cx="12" cy="8" r="5" fill="#34D399" />
+    <!-- Roots -->
+    <path d="M -10 15 Q -8 28 -5 40" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" />
+    <path d="M 0 15 Q 0 28 0 40" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" />
+    <path d="M 10 15 Q 12 28 15 40" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>
