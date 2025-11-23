@@ -1,7 +1,7 @@
 # Lona Collections
 
 ## Live Demo
-[https://your-deployed-url.com]
+
 
 ## Project Overview
 Lona Collections is a modern fashion brand website showcasing curated apparel, shoes, and accessories.  
